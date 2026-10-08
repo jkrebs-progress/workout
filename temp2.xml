@@ -1,0 +1,10 @@
+<BODY ism:classification="S" ism:disseminationControls="NF" ism:ownerProducer="USA" xmlns:edl="http://marklogic.com/edl" xmlns:ism="urn:us:gov:ic:ism" xmlns:ntk="urn:us:gov:ic:ntk" xmlns:irm="urn:us:gov:ic:irm" xmlns:ddms="urn:us:mil:ces:metadata:ddms:4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arh="urn:us:gov:ic:arh" xmlns:edh="urn:us:gov:ic:edh" xmlns:tdf="urn:us:gov:ic:tdf" xmlns:mac="urn:us:gov:ic:mac" xmlns="urn:us:gov:ic:rmt">SUBJ:<SUBJECT>i am android devloper want to know what is the flow of programm for RSS application need to do for</SUBJECT>
+            <REF>&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Read up on the &amp;lt;a href="http://cyber.law.harvard.edu/rss/rss.html" rel="nofollow"&amp;gt;RSS Specification&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Learn to parse XML using either DOM or &amp;lt;a href="http://www.dreamincode.net/forums/index.php?automodule=blog&amp;amp;amp;blogid=324&amp;amp;amp;showentry=2683" rel="nofollow"&amp;gt;SAX&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Write your program.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;...&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Profit!&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+</REF>
+         </BODY>

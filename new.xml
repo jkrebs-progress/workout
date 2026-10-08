@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edl:resource xmlns:edl="http://marklogic.com/edl">
+  <edl:metadata>
+    <edl:uuid>10000009983779045636</edl:uuid>
+    <edl:guide>8f91d33218b7421295320dc4f2027be95fa9366c</edl:guide>
+    <edl:ingest-filename>/content//space/gemtdo/1tar.2/a8641750156e4c33da90b386f27ce21c0066b93c.xml</edl:ingest-filename>
+    <edl:data-source>WIRES</edl:data-source>
+    <edl:ingest-datetime>2013-10-16T19:58:08.583703Z</edl:ingest-datetime>
+    <edl:odl-date>2012-01-21T22:47:00Z</edl:odl-date>
+    <edl:dtr>2013-10-07T21:55:26Z</edl:dtr>
+    <edl:enrich-meta>
+      <edl:enrichment-state>COMPLETE</edl:enrichment-state>
+      <edl:enrich-date>2013-12-10T14:54:13.718685-05:00</edl:enrich-date>
+      <edl:tempBODY>
+	<BODY ism:classification="S" ism:disseminationControls="NF" ism:ownerProducer="USA" xmlns:ism="urn:us:gov:ic:ism" xmlns:ntk="urn:us:gov:ic:ntk" xmlns:irm="urn:us:gov:ic:irm" xmlns:ddms="urn:us:mil:ces:metadata:ddms:4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arh="urn:us:gov:ic:arh" xmlns:edh="urn:us:gov:ic:edh" xmlns:tdf="urn:us:gov:ic:tdf" xmlns:mac="urn:us:gov:ic:mac" xmlns="urn:us:gov:ic:rmt">SUBJ:<SUBJECT>i am android devloper want to know what is the flow of programm for RSS application need to do for</SUBJECT>
+            <REF>&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Read up on the &amp;lt;a href="http://cyber.law.harvard.edu/rss/rss.html" rel="nofollow"&amp;gt;RSS Specification&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Learn to parse XML using either DOM or &amp;lt;a href="http://www.dreamincode.net/forums/index.php?automodule=blog&amp;amp;amp;blogid=324&amp;amp;amp;showentry=2683" rel="nofollow"&amp;gt;SAX&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Write your program.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;...&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Profit!&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+</REF>
+         </BODY>
+      </edl:tempBODY>
+    </edl:enrich-meta>
+  </edl:metadata>
+  <edl:content>
+    <tdf:TrustedDataObject tdf:version="1" xmlns:ism="urn:us:gov:ic:ism" xmlns:ntk="urn:us:gov:ic:ntk" xmlns:irm="urn:us:gov:ic:irm" xmlns:ddms="urn:us:mil:ces:metadata:ddms:4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arh="urn:us:gov:ic:arh" xmlns:edh="urn:us:gov:ic:edh" xmlns:tdf="urn:us:gov:ic:tdf" xmlns:mac="urn:us:gov:ic:mac">
+   <tdf:HandlingAssertion tdf:scope="TDO">
+      <tdf:HandlingStatement>
+         <edh:Edh edh:DESVersion="1" ism:DESVersion="9" ntk:DESVersion="7" arh:DESVersion="1">
+            <edh:Identifier>Guide://8f91d33218b7421295320dc4f2027be95fa9366c-TDO</edh:Identifier>
+            <edh:DataItemCreateDateTime>2012-01-21T22:47:00Z</edh:DataItemCreateDateTime>
+            <edh:ResponsibleEntity>
+               <edh:Country>USA</edh:Country>
+               <edh:Organization>DIA</edh:Organization>
+            </edh:ResponsibleEntity>
+            <arh:Security ism:resourceElement="true" ism:createDate="2012-01-21" ism:classification="U" ism:ownerProducer="USA" ism:classificationReason="1.4A" ism:classifiedBy="SGT Duck,ICOM" ism:declassDate="2037-01-14" ism:disseminationControls="NF">
+               <ntk:Access ism:classification="U" ism:ownerProducer="USA">
+                  <ntk:AccessProfileList ism:classification="U" ism:ownerProducer="USA">
+                     <ntk:AccessProfile ism:classification="U" ism:ownerProducer="USA">
+                        <ntk:AccessSystemName ism:classification="U" ism:ownerProducer="USA">DIAS-Message</ntk:AccessSystemName>
+                          <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI">ABCDE</ntk:AccessProfileValue>
+                            <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI_Ctrl">R02</ntk:AccessProfileValue>
+                     </ntk:AccessProfile>
+                  </ntk:AccessProfileList>
+               </ntk:Access>
+               <ism:NoticeList ism:classification="U" ism:ownerProducer="USA">
+                  <ism:Notice ism:unregisteredNoticeType="ERROR-7">
+                     <ism:NoticeText ism:classification="U" ism:ownerProducer="USA">The overall document ISM attributes were added to the document element BODY as on element contained any attributes.</ism:NoticeText>
+                  </ism:Notice>
+               </ism:NoticeList>
+            </arh:Security>
+         </edh:Edh>
+      </tdf:HandlingStatement>
+   </tdf:HandlingAssertion>
+   <tdf:HandlingAssertion tdf:scope="PAYL">
+      <tdf:HandlingStatement>
+         <edh:Edh edh:DESVersion="1" ism:DESVersion="9" ntk:DESVersion="7" arh:DESVersion="1">
+            <edh:Identifier>Guide://8f91d33218b7421295320dc4f2027be95fa9366c</edh:Identifier>
+            <edh:DataItemCreateDateTime>2012-01-21T22:47:00Z</edh:DataItemCreateDateTime>
+            <edh:ResponsibleEntity>
+               <edh:Country>USA</edh:Country>
+               <edh:Organization>DIA</edh:Organization>
+            </edh:ResponsibleEntity>
+            <arh:Security ism:resourceElement="true" ism:createDate="2012-01-21" ism:classification="U" ism:ownerProducer="USA" ism:classificationReason="1.4A" ism:classifiedBy="SGT Duck,ICOM" ism:declassDate="2037-01-14" ism:disseminationControls="NF">
+               <ntk:Access ism:classification="U" ism:ownerProducer="USA">
+                  <ntk:AccessProfileList ism:classification="U" ism:ownerProducer="USA">
+                     <ntk:AccessProfile ism:classification="U" ism:ownerProducer="USA">
+                        <ntk:AccessSystemName ism:classification="U" ism:ownerProducer="USA">DIAS-Message</ntk:AccessSystemName>
+                          <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI">ABCDE</ntk:AccessProfileValue>
+                            <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI_Ctrl">R02</ntk:AccessProfileValue>
+                     </ntk:AccessProfile>
+                  </ntk:AccessProfileList>
+               </ntk:Access>
+               <ism:NoticeList ism:classification="U" ism:ownerProducer="USA">
+                  <ism:Notice ism:unregisteredNoticeType="ERROR-7">
+                     <ism:NoticeText ism:classification="U" ism:ownerProducer="USA">The overall document ISM attributes were added to the document element BODY as on element contained any attributes.</ism:NoticeText>
+                  </ism:Notice>
+               </ism:NoticeList>
+            </arh:Security>
+         </edh:Edh>
+      </tdf:HandlingStatement>
+   </tdf:HandlingAssertion>
+   <tdf:Assertion tdf:scope="PAYL" tdf:type="DISCOVERY">
+      <tdf:StatementMetadata>
+         <edh:Edh edh:DESVersion="1" ism:DESVersion="9" ntk:DESVersion="7" arh:DESVersion="1">
+            <edh:Identifier>Guide://8f91d33218b7421295320dc4f2027be95fa9366c-irm</edh:Identifier>
+            <edh:DataItemCreateDateTime>2012-01-21T22:47:00Z</edh:DataItemCreateDateTime>
+            <edh:ResponsibleEntity>
+               <edh:Country>USA</edh:Country>
+               <edh:Organization>DIA</edh:Organization>
+            </edh:ResponsibleEntity>
+            <arh:Security ism:resourceElement="true" ism:createDate="2012-01-21" ism:classification="U" ism:ownerProducer="USA" ism:classificationReason="1.4A" ism:classifiedBy="SGT Duck,ICOM" ism:declassDate="2037-01-14" ism:disseminationControls="NF">
+               <ntk:Access ism:classification="U" ism:ownerProducer="USA">
+                  <ntk:AccessProfileList ism:classification="U" ism:ownerProducer="USA">
+                     <ntk:AccessProfile ism:classification="U" ism:ownerProducer="USA">
+                        <ntk:AccessSystemName ism:classification="U" ism:ownerProducer="USA">DIAS-Message</ntk:AccessSystemName>
+                          <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI">ABCDE</ntk:AccessProfileValue>
+                            <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI_Ctrl">R02</ntk:AccessProfileValue>
+                     </ntk:AccessProfile>
+                  </ntk:AccessProfileList>
+               </ntk:Access>
+               <ism:NoticeList ism:classification="U" ism:ownerProducer="USA">
+                  <ism:Notice ism:unregisteredNoticeType="ERROR-7">
+                     <ism:NoticeText ism:classification="U" ism:ownerProducer="USA">The overall document ISM attributes were added to the document element BODY as on element contained any attributes.</ism:NoticeText>
+                  </ism:Notice>
+               </ism:NoticeList>
+            </arh:Security>
+         </edh:Edh>
+      </tdf:StatementMetadata>
+      <tdf:StructuredStatement>
+         <irm:ICResourceMetadataPackage irm:DESVersion="8" ism:DESVersion="9" ntk:DESVersion="7" ism:resourceElement="true" ism:createDate="2012-01-21" ism:classification="S" ism:ownerProducer="USA" ism:classificationReason="1.4A" ism:classifiedBy="SGT Duck,ICOM" ism:declassDate="2037-01-14" ism:disseminationControls="NF" irm:compliesWith="MIN_DISCOVERABLE">
+            <ddms:resource irm:DESVersion="8" ism:DESVersion="9" ntk:DESVersion="7" ism:resourceElement="true" ism:createDate="2012-01-21" ism:classification="S" ism:ownerProducer="USA" ism:classificationReason="1.4A" ism:classifiedBy="SGT Duck,ICOM" ism:declassDate="2037-01-14" ism:disseminationControls="NF">
+               <ddms:metacardInfo>
+                  <ddms:identifier ddms:qualifier="IC-ID" ddms:value="Guide://8f91d33218b7421295320dc4f2027be95fa9366c-irm"/>
+                  <ddms:dates ddms:posted="2013-05-17T17:51:21Z"/>
+                  <ddms:publisher>
+                     <ddms:organization ddms:acronym="DIA">
+                        <ddms:name>DIA</ddms:name>
+                     </ddms:organization>
+                  </ddms:publisher>
+                  <ddms:noticeList ism:classification="U" ism:ownerProducer="USA">
+                     <ism:Notice ism:unregisteredNoticeType="ERROR-7">
+                        <ism:NoticeText ism:classification="U" ism:ownerProducer="USA">The overall document ISM attributes were added to the document element BODY as on element contained any attributes.</ism:NoticeText>
+                     </ism:Notice>
+                  </ddms:noticeList>
+               </ddms:metacardInfo>
+               <ddms:identifier ddms:qualifier="IC-ID" ddms:value="Guide://8f91d33218b7421295320dc4f2027be95fa9366c"/>
+               <ddms:title ism:classification="U" ism:ownerProducer="USA">SPORTS SUMMARY AM</ddms:title>
+               <ddms:description ism:classification="U" ism:ownerProducer="USA">SPORTS SUMMARY AM</ddms:description>
+               <ddms:language ddms:qualifier="RFC1766" ddms:value="en"/>
+               <ddms:dates ddms:created="2012-01-21T22:47:00Z" ddms:posted="2013-05-17T17:51:21Z"/>
+               <ddms:publisher ism:classification="U" ism:ownerProducer="USA">
+                  <ddms:organization ddms:acronym="DIA">
+                     <ddms:name>DIA</ddms:name>
+                  </ddms:organization>
+               </ddms:publisher>
+               <ddms:creator>
+                  <ddms:organization ddms:acronym="DIA">
+                     <ddms:name>DIA</ddms:name>
+                  </ddms:organization>
+               </ddms:creator>
+               <ddms:subjectCoverage>
+                  <ddms:productionMetric ism:classification="U" ism:ownerProducer="USA" ddms:subject="BASE" ddms:coverage="100041"/>
+               </ddms:subjectCoverage>
+               <ddms:security ism:excludeFromRollup="true" ism:classification="U" ism:ownerProducer="USA" ism:disseminationControls="NF">
+                  <ntk:Access ism:classification="U" ism:ownerProducer="USA" ntk:externalReference="true">
+                     <ntk:AccessProfileList ism:classification="U" ism:ownerProducer="USA">
+                        <ntk:AccessProfile ism:classification="U" ism:ownerProducer="USA">
+                           <ntk:AccessSystemName ism:classification="U" ism:ownerProducer="USA">DIAS-Message</ntk:AccessSystemName>
+                            <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI">ABCDE</ntk:AccessProfileValue>
+                              <ntk:AccessProfileValue ism:classification="U" ism:ownerProducer="USA" ntk:vocabulary="COI_Ctrl">R02</ntk:AccessProfileValue>
+                        </ntk:AccessProfile>
+                     </ntk:AccessProfileList>
+                  </ntk:Access>
+               </ddms:security>
+            </ddms:resource>
+         </irm:ICResourceMetadataPackage>
+      </tdf:StructuredStatement>
+   </tdf:Assertion>
+   <tdf:StructuredPayload>
+<MESSAGE COI="ABCDE" COI_Ctrl="R02" RmtVersion="1" irm:DESVersion="7" ism:DESVersion="8" ism:classification="U" ism:classificationReason="1.4A" ism:classifiedBy="SGT Duck,ICOM" ism:declassDate="2037-01-14" ism:disseminationControls="NF" ism:ownerProducer="USA" ntk:DESVersion="6" organizationalUnit="MILITARY" xmlns="urn:us:gov:ic:rmt">
+  
+  <ANY>
+      <FULL>
+         <CDS>
+            <ENVELOPE>
+               <SCPREC>P</SCPREC>AASZYUW RUEOMFJ<SCSTSER>7602</SCSTSER> 0212253-SSSS--RUZDTPW.
+ZNY SSSSS ZUI RUEOMCG2667 0212257</ENVELOPE>
+         </CDS>
+         <HEADER>
+            <PREC>O </PREC>
+            <DTG>071755Z OCT13</DTG>
+            <FROM>FM <SCSANSPR>DIA</SCSANSPR>
+            </FROM>
+            <TO>DIA</TO>
+            <INFO>DIA</INFO>
+BT</HEADER>
+         <CONTROLS>
+            <CLASS>S E C R E T</CLASS>
+            <DISMCTRLS>
+               <DISMCTRL> NOFORN</DISMCTRL>
+            </DISMCTRLS>
+QQQQ</CONTROLS>
+         <BODY ism:classification="S" ism:disseminationControls="NF" ism:ownerProducer="USA">SUBJ:<SUBJECT>i am android devloper want to know what is the flow of programm for RSS application need to do for</SUBJECT>
+            <REF>&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Read up on the &amp;lt;a href="http://cyber.law.harvard.edu/rss/rss.html" rel="nofollow"&amp;gt;RSS Specification&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Learn to parse XML using either DOM or &amp;lt;a href="http://www.dreamincode.net/forums/index.php?automodule=blog&amp;amp;amp;blogid=324&amp;amp;amp;showentry=2683" rel="nofollow"&amp;gt;SAX&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Write your program.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;...&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Profit!&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+</REF>
+         </BODY>
+         <ADMIN>
+            <DECLASS>DECLASSIFY ON: 212247Z JAN 2022</DECLASS>
+BT
+#7602
+
+
+
+
+
+
+
+NNNN</ADMIN>
+      </FULL>
+      <GENERATED>
+         <OFILENAME>235159234_SO_NE.MSG</OFILENAME>
+         <MI_FILENAME>/export/home/lmds//backup//235159234_SO_NE.MSG.Normal</MI_FILENAME>
+         <MI_TIMESTAMP>4f1b4098</MI_TIMESTAMP>
+         <ITEMNO>0120211748270016</ITEMNO>
+         <DTR>2013-10-07-17.55.26.000000</DTR>
+         <SCDTR>
+            <SCDOR>120121</SCDOR>
+            <SCTOR>17482700</SCTOR>
+         </SCDTR>
+         <XCOMMO>COMMOPCT</XCOMMO>
+         <XAGENCY>SAFED</XAGENCY>
+         <MHEADER>ELECT</MHEADER>
+         <TOTSECT>1</TOTSECT>
+         <SCSOURCE>WIRES</SCSOURCE>
+         <SCSANSAG>WIRES</SCSANSAG>
+         <SCTYPE>OTHER</SCTYPE>
+         <MBODY>IHCBDY</MBODY>
+         <SCCLASS>S</SCCLASS>
+         <SCDISCTLS>
+            <SCDISCTL>NOFORN</SCDISCTL>
+         </SCDISCTLS>
+         <SCCATEGORY>OTHER</SCCATEGORY>
+         <TOTYY>12</TOTYY>
+         <TOTDHM>212247</TOTDHM>
+         <SCSANSNO>212247ZJAN127602    </SCSANSNO>
+         <SCSANS>MIL ICOM Duckville GA212247ZJAN127602    </SCSANS>
+         <SCORIGDT>1201212247</SCORIGDT>
+         <MDFIVE>7da98181fac3e2b6b55d83cae262b2a5</MDFIVE>
+      </GENERATED>
+  </ANY>
+</MESSAGE>
+</tdf:StructuredPayload>
+</tdf:TrustedDataObject>
+  </edl:content>
+</edl:resource>

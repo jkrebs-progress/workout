@@ -1,0 +1,10 @@
+<BODY ism:classification="S" ism:disseminationControls="NF" ism:ownerProducer="USA">SUBJ:<SUBJECT>i am android devloper want to know what is the flow of programm for RSS application need to do for</SUBJECT>
+            <REF>&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Read up on the &amp;lt;a href="http://cyber.law.harvard.edu/rss/rss.html" rel="nofollow"&amp;gt;RSS Specification&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Learn to parse XML using either DOM or &amp;lt;a href="http://www.dreamincode.net/forums/index.php?automodule=blog&amp;amp;amp;blogid=324&amp;amp;amp;showentry=2683" rel="nofollow"&amp;gt;SAX&amp;lt;/a&amp;gt;.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Write your program.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;...&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Profit!&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+</REF>
+         </BODY>

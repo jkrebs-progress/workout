@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>7 Minute Workout</title>
+    <meta name="keywords" content="Excercise,Muscles,Workout,Fitness,">
+    <meta name="description" content="12 excercises using only a chair, a wall and your body weight, combined in 7 minutes of discomfort. Here's your timing webapp to aid you">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333333">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="shortcut icon" href="7%20Minutes%20of%20Hell%20-%20The%20Scientific%207-Minute-Workout%20Timer_files/timer.jpg">
+    <link rel="stylesheet" href="7%20Minutes%20of%20Hell%20-%20The%20Scientific%207-Minute-Workout%20Timer_files/css.css">
+    <link rel="stylesheet" href="7%20Minutes%20of%20Hell%20-%20The%20Scientific%207-Minute-Workout%20Timer_files/main.css">
+
+    <meta name="apple-mobile-web-app-title" content="7 Mins Hell">
+    <link rel="apple-touch-icon-precomposed" href="icon-192.png">
+
+    <meta name="msapplication-TileColor" content="#333333">
+    <meta name="msapplication-TileImage" content="images/apple-touch-icon-144x144.png">
+  <style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+/** reset styling **/
+.firebugResetStyles {
+    z-index: 2147483646 !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    position: fixed !important;
+    transform: rotate(0deg) !important;
+    transform-origin: 50% 50% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent none !important;
+    pointer-events: none !important;
+    white-space: normal !important;
+}
+
+.firebugBlockBackgroundColor {
+    background-color: transparent !important;
+}
+
+.firebugResetStyles:before, .firebugResetStyles:after {
+    content: "" !important;
+}
+/**actual styling to be modified by firebug theme**/
+.firebugCanvas {
+    display: none !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    width: auto !important;
+    position: static !important;
+}
+
+.firebugLayoutBoxOffset {
+    opacity: 0.8 !important;
+    position: fixed !important;
+}
+
+.firebugLayoutLine {
+    opacity: 0.4 !important;
+    background-color: #000000 !important;
+}
+
+.firebugLayoutLineLeft, .firebugLayoutLineRight {
+    width: 1px !important;
+    height: 100% !important;
+}
+
+.firebugLayoutLineTop, .firebugLayoutLineBottom {
+    width: 100% !important;
+    height: 1px !important;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px !important;
+    border-top: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px !important;
+    border-left: 1px solid #999999 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.overflowRulerX > .firebugRulerV {
+    left: 0 !important;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.fbProxyElement {
+    position: fixed !important;
+    pointer-events: auto !important;
+}
+</style></head>
+
+  <body>
+    <div class="startup-actions">
+
+      <a href="#" class="btn btn-success startup-with-sound">Start</a>
+      <a href="#" class="btn btn-success startup">Start without sound</a>
+
+    </div>
+    <a href="#" class="btn btn-success pause" id="pause">Pause</a>
+    <div class="current-activity">
+      <div class="activity"></div>
+      <div class="timer"></div>
+    </div>
+
+	<div class="coming-up-title">Coming up:</div>
+    <div class="coming-up"></div>
+    <div class="coming-up-2"></div>
+    <div class="ex-time">Exercise Time (seconds):<input type="text" name="exTime" id="exTime" value="" maxlength="4" size="4"></div>
+    <div class="rest-time">Rest Time (seconds):<input type="text" name="restTime" id="restTime" value="" maxlength="4" size="4"></div>
+    <div class="total-time-input">Total time:<input type="text" name="totTimeMin" id="totTimeMin" value="" maxlength="4" size="2">:<input type="text" name="totTimeSec" id="totTimeSec" value="" maxlength="2" size="2"></div>
+    <div class="have-pullup-bar">Have pullup bar?<input type="checkbox" name="havePullupBar" id="havePullupBar"></div>
+    <div class="plyometrics-only">Plyometrics only?<input type="checkbox" name="plyometricsOnly" id="plyometricsOnly"></div>
+    <div class="elapsed-time"></div>
+    <a href="#" class="btn btn-exercises show-exercises" id="pause">Show Exercises</a>
+    <a href="#" class="btn btn-skip-exercise skip-exercise" id="skip-exercise">Skip</a>
+
+    <audio preload="" id="beep">
+      <source src="7%20Minutes%20of%20Hell%20-%20The%20Scientific%207-Minute-Workout%20Timer_files/beep-7.wav" type="audio/wav">
+      <source src="7%20Minutes%20of%20Hell%20-%20The%20Scientific%207-Minute-Workout%20Timer_files/beep-7.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="7%20Minutes%20of%20Hell%20-%20The%20Scientific%207-Minute-Workout%20Timer_files/jquery.js"></script>
+    <script src="7%20Minutes%20of%20Hell%20-%20The%20Scientific%207-Minute-Workout%20Timer_files/main.js"></script>
+
+    <script>
+      window.ga = window.ga || function() {};
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      }
+    </script>
+
+</body></html>
